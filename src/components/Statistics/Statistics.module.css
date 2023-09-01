@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.statlist {
+  display: flex;
+  /* gap: 10px; */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: 80px;
+  height: 80px;
+}
